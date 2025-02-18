@@ -11,14 +11,14 @@ int main() {
         // Check for vowels
         if (ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U' ||
             ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
-            printf("%c", ch);
+            printf("Vowel");
         } else {
-            printf("%c", ch);
+            printf("Consonant");
         }
     } else if (ch >= '0' && ch <= '9') {
-        printf("%c", ch);
+        printf("Digit");
     } else {
-        printf("%c", ch);
+        printf("Special Character");
     }
 
     return 0;
