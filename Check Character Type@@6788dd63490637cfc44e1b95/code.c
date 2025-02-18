@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 int main(){
     char ch;
     scanf("%c",&ch);
@@ -18,4 +18,5 @@ int main(){
             printf("Special Character");
         }
     }
+    return 0;
 }
