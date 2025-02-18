@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main(){
-    char c;
-    scanf("%c",&c);
-    if((c>='a' && c<='z')||(c>='A' && c<='Z')){
-        if(c='a'||c='e'||c='i'||c='o'||c='u'||c='A'||c='E'||c='I'||c='O'||c='U'){
+    char ch;
+    scanf("%c",&ch);
+    if((ch>='a' && ch<='z')||(ch>='A' && ch<='Z')){
+        if(ch='a'||ch='e'||ch='i'||ch='o'||ch='u'||ch='A'||ch='E'||ch='I'||ch='O'||ch='U'){
             printf("Vowel");
         }
         else{
@@ -11,7 +11,7 @@ int main(){
         }
     }
     else{
-        if(c>='0' && c<='9'){
+        if(ch>='0' && ch<='9'){
             printf("Digit");
         }
         else{
