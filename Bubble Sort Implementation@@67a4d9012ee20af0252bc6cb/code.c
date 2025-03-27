@@ -9,14 +9,10 @@ void bubbleSort(int arr[], int n) {
 
                 // swapped is set to true if the swap is
                 // done
-                swapped = true;
+                
             }
         }
-
-        // If no two elements were swapped
-        // by inner loop, then break
-        if (swapped == false)
-            break;
+ 
     }
 }
 
