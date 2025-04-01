@@ -15,7 +15,8 @@ int main(){
          if(freq>0){
          printf("%d %d\n",arr[i],freq);
          }
-         break;
+         
         }
+        break;
     }
 }
