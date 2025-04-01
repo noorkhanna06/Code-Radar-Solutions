@@ -9,7 +9,9 @@ int main(){
     }
     for(i=0;i<n;i++){
         freq++;
+        if(freq>0){
         printf("%d %d\n",arr[i],freq);
+        }
     }
    
 
