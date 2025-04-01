@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int n,i,j;
+    int n,i;
     scanf("%d",&n);
     int arr[n];
     int freq=0;
@@ -11,11 +11,8 @@ int main(){
         freq++;
     }
     for(i=0;i<n;i++){
-        for(j=0;j<i;j++){
-         if(freq>0){
-         printf("%d %d\n",arr[i],freq);
-         }
-         
+    if(freq>0){
+        printf("%d %d\n",arr[i],freq);
         }
         break;
     }
