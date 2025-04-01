@@ -11,9 +11,11 @@ int main(){
         freq++;
     }
     for(i=0;i<n;i++){
-    if(freq>0){
-        printf("%d %d\n",arr[i],freq);
+        for(j=0;j<i;j++){
+         if(freq>0){
+         printf("%d %d\n",arr[i],freq);
+         }
+         break;
         }
-        break;
     }
 }
