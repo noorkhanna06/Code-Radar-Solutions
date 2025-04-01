@@ -9,11 +9,11 @@ int main(){
     }
     for(i=0;i<n;i++){
         freq++;
-       
     }
-     for(i=0;i<n;i++){
-     if(freq>0){
+    for(i=0;i<n;i++){
+    if(freq>0){
         printf("%d %d\n",arr[i],freq);
         }
-     }
+        break;
+    }
 }
