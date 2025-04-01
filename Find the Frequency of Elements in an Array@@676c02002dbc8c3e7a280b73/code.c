@@ -9,7 +9,8 @@ int main(){
     }
     for(i=0;i<n;i++){
         freq++;
+         printf("%d %d\n",arr[i],freq);
     }
-    printf("%d %d",arr[i],freq);
+   
 
 }
